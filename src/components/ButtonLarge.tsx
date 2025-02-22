@@ -1,9 +1,16 @@
 export function ButtonLarge() {
     return (
-        <>
-        <div data-layer="ButtonLarge" className="ButtonLarge" style={{width: 300, height: 48, paddingTop: 12, paddingBottom: 12, background: '#5BBEA9', borderRadius: 8, overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
-            <div data-layer="Register" className="Register" style={{textAlign: 'center', color: '#FBFBFE', fontSize: 16, fontFamily: 'Poppins', fontWeight: '700', textTransform: 'capitalize', wordWrap: 'break-word'}}>Register</div>
+      <div
+        data-layer="ButtonLarge"
+        className="h-12 py-3 bg-[#5bbea9] rounded-lg justify-center items-center inline-flex overflow-hidden min-w-[300px]"
+      >
+        <div
+          data-layer="Register"
+          className="text-center text-[#fbfbfe] text-base font-bold capitalize px-8" 
+          style={{ fontFamily: 'Poppins' }} 
+        >
+          Register
         </div>
-        </>
-    )
-}
+      </div>
+    );
+  }
